@@ -107,8 +107,8 @@ bun scripts/loc-count.mjs
 
 ```
 Scale report (2026-10-11, seed 7331)
-  code lines : 4,472 in 126 files (TypeScript strict, all typechecked + linted + tested)
-  total lines: 1,046,121 in 572 files (cloc-verified via scripts/loc-count.mjs)
+  code lines : 4,717 in 132 files (TypeScript strict, all typechecked + linted + tested)
+  total lines: 1,046,407 in 578 files (verified via scripts/loc-count.mjs --json)
   top layers : packages/seed CSV worlds ~1.02M · docs ~9k · i18n 14 locales ~6.7k
 ```
 
