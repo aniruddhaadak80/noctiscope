@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+    depends_on:
+      - agents
+  agents:
+    build: ./services/agents
+    ports:
+      - "8000:8000"
+    environment:
+      - SEED=7331

@@ -1,0 +1,22 @@
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#a78bfa','primaryTextColor':'#fff','lineColor':'#7dd3fc','background':'#070810'}}}%%
+flowchart LR
+  subgraph client[apps/web]
+    UI[App Router pages] --> API[Route handlers /api]
+    UI --> CORE_WEB[@repo/core in browser]
+  end
+  subgraph pkgs[packages]
+    CORE[@repo/core pure logic] --> SEED[@repo/seed datasets]
+    UI_PKG[@repo/ui design system]
+    SDK[@repo/sdk typed client]
+  end
+  subgraph poly[polyglot]
+    PY[services/agents FastAPI]
+    RS[crates/engine Rust]
+    RB[bin/pipeline.rb]
+    PL[bin/xtract.pl]
+  end
+  API --> CORE
+  CORE_WEB --> CORE
+  SDK --> API
+  PY --> API
+  RS --> CORE

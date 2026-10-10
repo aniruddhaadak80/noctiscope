@@ -1,0 +1,14 @@
+sequenceDiagram
+  autonumber
+  participant U as User
+  participant UI as Next.js page
+  participant C as @repo/core sim
+  participant PY as FastAPI agents (optional)
+  U->>UI: types dream text
+  UI->>C: interpretDream(text, seed)
+  C->>C: symbol match + valence/arousal
+  alt deploy with agents service
+    UI->>PY: POST /reflect
+    PY-->>UI: mirror + pattern
+  end
+  UI-->>U: symbols, narrative, lucid prompt

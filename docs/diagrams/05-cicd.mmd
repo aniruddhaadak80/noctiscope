@@ -1,0 +1,8 @@
+flowchart LR
+  Commit[git commit] --> CI[GitHub Actions ci.yml]
+  CI --> Type[typecheck + lint + test]
+  Type --> Build[next build]
+  Build --> Vercel[vercel --prod]
+  Build --> Docker[docker build + push]
+  Vercel --> Live[live URL]
+  Docker --> Fly[Fly.io / Render]

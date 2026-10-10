@@ -1,0 +1,65 @@
+/** Generated symbol matrix (seed 7331). Do not hand-edit; run bun scripts/generate.ts. */
+export interface SymbolEntry {
+  meaning: string;
+  affect: string;
+}
+
+export const SYMBOL_MATRIX: Record<string, SymbolEntry> = {
+  "abyss": { meaning: "confrontation with the unknown", affect: "fearful" },
+  "anchor": { meaning: "need for stability", affect: "grounding" },
+  "avalanche": { meaning: "overwhelming change", affect: "turbulent" },
+  "balloon": { meaning: "rising hope fragile to criticism", affect: "uplifted" },
+  "basement": { meaning: "buried memories", affect: "curious" },
+  "bell": { meaning: "a call to attention", affect: "alert" },
+  "cage": { meaning: "self-imposed limitation", affect: "constrained" },
+  "candle": { meaning: "fragile but persistent hope", affect: "hopeful" },
+  "castle": { meaning: "ambition and defense", affect: "proud" },
+  "cave": { meaning: "retreat into the inner self", affect: "withdrawn" },
+  "clock": { meaning: "anxiety about time passing", affect: "pressured" },
+  "cloud": { meaning: "vague but gathering feeling", affect: "misty" },
+  "compass": { meaning: "search for direction", affect: "seeking" },
+  "crystal": { meaning: "clarity forming", affect: "clear" },
+  "dagger": { meaning: "betrayal or sharp words", affect: "wounded" },
+  "desert": { meaning: "emotional barrenness", affect: "lonely" },
+  "dove": { meaning: "longed-for peace", affect: "tender" },
+  "drum": { meaning: "heartbeat of an approaching event", affect: "anticipatory" },
+  "eclipse": { meaning: "something overshadowing you", affect: "overshadowed" },
+  "elevator": { meaning: "rises and falls of status", affect: "volatile" },
+  "engine": { meaning: "your drive system", affect: "motivated" },
+  "feather": { meaning: "lightness after release", affect: "relieved" },
+  "flood": { meaning: "feelings breaching control", affect: "overwhelmed" },
+  "fog": { meaning: "confusion obscuring a decision", affect: "confused" },
+  "fountain": { meaning: "renewed emotional flow", affect: "refreshed" },
+  "garden": { meaning: "cultivated inner life", affect: "nurtured" },
+  "ghost": { meaning: "unresolved past presence", affect: "haunted" },
+  "glacier": { meaning: "slow-moving emotional truth", affect: "cold" },
+  "harbor": { meaning: "sought safety", affect: "relieved" },
+  "horizon": { meaning: "possible futures", affect: "hopeful" },
+  "hurricane": { meaning: "chaotic transformation", affect: "turbulent" },
+  "ice": { meaning: "frozen feeling", affect: "numb" },
+  "island": { meaning: "isolation or refuge", affect: "solitary" },
+  "judge": { meaning: "inner critic", affect: "judged" },
+  "labyrinth": { meaning: "complex decision path", affect: "lost" },
+  "lighthouse": { meaning: "guidance in darkness", affect: "guided" },
+  "mask": { meaning: "persona vs true self", affect: "guarded" },
+  "mountain": { meaning: "major challenge", affect: "daunted" },
+  "nest": { meaning: "need for home", affect: "nesting" },
+  "oasis": { meaning: "relief in difficulty", affect: "relieved" },
+  "pendulum": { meaning: "swinging decisions", affect: "torn" },
+  "quilt": { meaning: "patched-together comfort", affect: "cozy" },
+  "rainbow": { meaning: "promise after storm", affect: "hopeful" },
+  "raven": { meaning: "omen of change", affect: "ominous" },
+  "rollercoaster": { meaning: "emotional volatility", affect: "dizzy" },
+  "sandbox": { meaning: "safe experimentation", affect: "playful" },
+  "ship": { meaning: "life voyage", affect: "directional" },
+  "telescope": { meaning: "distant goals", affect: "aspiring" },
+  "tunnel": { meaning: "passage through difficulty", affect: "liminal" },
+  "volcano": { meaning: "suppressed eruption", affect: "pressurized" },
+  "waterfall": { meaning: "emotional release", affect: "cathartic" },
+  "window": { meaning: "new perspective", affect: "open" },
+  "wolf": { meaning: "wild instinct or threat", affect: "feral" },
+};
+
+export function lookupSymbol(symbol: string): SymbolEntry | undefined {
+  return SYMBOL_MATRIX[symbol];
+}

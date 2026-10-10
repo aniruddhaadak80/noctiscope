@@ -1,0 +1,12 @@
+gitGraph
+  commit id: "init"
+  branch develop
+  checkout develop
+  commit id: "atlas"
+  commit id: "dreams"
+  branch feat-bias-lab
+  commit id: "biases"
+  checkout develop
+  merge feat-bias-lab
+  checkout main
+  merge develop tag: "v0.1.0"

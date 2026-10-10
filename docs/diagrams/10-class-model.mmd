@@ -1,0 +1,18 @@
+classDiagram
+  class DreamEngine {
+    +interpretDream(text, seed) DreamReading
+  }
+  class BiasLab {
+    +list() CognitiveBias[]
+  }
+  class NeuroSim {
+    +simulate(input) NeuroLevel[]
+  }
+  class JournalMirror {
+    +reflect(text, seed) JournalReflection
+  }
+  class TimeMachine {
+    +replay(events, steps) TimelineEvent[]
+  }
+  DreamEngine --> DreamReading
+  JournalMirror --> TimeMachine : feeds

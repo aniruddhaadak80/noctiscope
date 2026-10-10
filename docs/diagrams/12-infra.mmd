@@ -1,0 +1,15 @@
+flowchart TB
+  subgraph edge[Edge]
+    CDN[Vercel Edge CDN]
+  end
+  subgraph app[App]
+    WEB[Next.js standalone :3000]
+    PY[FastAPI :8000]
+  end
+  subgraph data[Data]
+    SEED[(seed JSON + SQLite)]
+  end
+  User --> CDN --> WEB
+  WEB --> PY
+  WEB --> SEED
+  PY --> SEED

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: noctiscope
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/healthz
+    envVars:
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://noctiscope.onrender.com
+      - key: NEXT_PUBLIC_SEED
+        value: "7331"

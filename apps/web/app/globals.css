@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-abyss: #070810;
+  --color-dream: #141828;
+  --color-night: #1e2440;
+  --color-plasma: #7dd3fc;
+  --color-mindviolet: #a78bfa;
+  --color-synapse: #f0abfc;
+  --color-signal: #fbbf24;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #070810;
+  color: #f1f5f9;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.brain-glow {
+  background: radial-gradient(
+    ellipse 60% 50% at 50% 40%,
+    rgba(167, 139, 250, 0.25),
+    transparent 70%
+  );
+}
