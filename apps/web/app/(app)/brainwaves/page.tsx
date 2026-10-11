@@ -2,6 +2,7 @@
 
 import { simulateBrainwaves } from "@repo/core";
 import { useState } from "react";
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 export default function BrainwavesPage() {
   const [state, setState] = useState("deep-work");
@@ -28,6 +29,15 @@ export default function BrainwavesPage() {
             {s}
           </button>
         ))}
+      </div>
+      <div className="mt-4 h-64 rounded-2xl border border-white/10 bg-white/5 p-4">
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart data={waves.map((w) => ({ name: w.band, power: w.power }))}>
+            <XAxis dataKey="name" tick={{ fill: "#94a3b8", fontSize: 12 }} />
+            <YAxis tick={{ fill: "#94a3b8", fontSize: 12 }} />
+            <Bar dataKey="power" fill="#a78bfa" radius={[6, 6, 0, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
       <div className="mt-4 grid gap-3 md:grid-cols-5">
         {waves.map((w) => (

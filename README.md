@@ -44,6 +44,8 @@ your data. Noctiscope is open, offline-capable, and honest about being a teachin
 | Journal with a mirror | `/journal` | deterministic reflection, zero keys |
 | Watch brainwaves | `/brainwaves` | delta→gamma live sim |
 | Replay a mental day | `/timemachine` | event-sourced state replay |
+| Take a mind quiz | `/quiz` | big-five, chronotype, stress index (saved locally) |
+| Search everything | `/search` | regions, symbols, biases, archetypes in one query |
 
 ## Quickstart
 
@@ -106,9 +108,9 @@ bun scripts/loc-count.mjs
 ```
 
 ```
-Scale report (2026-10-11, seed 7331)
-  code lines : 4,717 in 132 files (TypeScript strict, all typechecked + linted + tested)
-  total lines: 1,046,407 in 578 files (verified via scripts/loc-count.mjs --json)
+Scale report (2026-10-12, seed 7331)
+  code lines : 5,429 in ~140 files (TypeScript strict, all typechecked + linted + tested)
+  total lines: 1,047,124 in 590 files (verified via scripts/loc-count.mjs --json)
   top layers : packages/seed CSV worlds ~1.02M · docs ~9k · i18n 14 locales ~6.7k
 ```
 

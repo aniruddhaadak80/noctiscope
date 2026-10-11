@@ -2,6 +2,7 @@
 
 import { NEUROTRANSMITTERS, simulateNeurochemistry } from "@repo/core";
 import { useState } from "react";
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 export default function NeurochemPage() {
   const [sleep, setSleep] = useState(7);
@@ -52,6 +53,27 @@ export default function NeurochemPage() {
             className="w-full"
           />
         </label>
+      </div>
+      <div className="mt-4 h-64 rounded-2xl border border-white/10 bg-white/5 p-4">
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart
+            data={result.levels.map((l) => ({ name: l.name, score: l.score }))}
+            layout="vertical"
+          >
+            <XAxis
+              type="number"
+              domain={[0, 100]}
+              tick={{ fill: "#94a3b8", fontSize: 12 }}
+            />
+            <YAxis
+              type="category"
+              dataKey="name"
+              tick={{ fill: "#94a3b8", fontSize: 12 }}
+              width={90}
+            />
+            <Bar dataKey="score" fill="#7dd3fc" radius={[0, 6, 6, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
       <div className="mt-4 grid gap-4 md:grid-cols-2">
         {result.levels.map((l) => (

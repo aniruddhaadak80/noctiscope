@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import { Providers } from "../components/theme-provider";
+import { ThemeToggle } from "../components/theme-toggle";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -24,35 +26,43 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen antialiased">
-        <a href="#main" className="sr-only focus:not-sr-only">
-          Skip to content
-        </a>
-        <header className="border-b border-white/10">
-          <nav
-            aria-label="Primary"
-            className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3"
-          >
-            <a href="/" className="text-lg font-bold tracking-tight">
-              🌙 Noctiscope
-            </a>
-            <div className="flex flex-wrap gap-4 text-sm text-slate-300">
-              <a href="/atlas">Atlas</a>
-              <a href="/dreams">Dreams</a>
-              <a href="/biases">Biases</a>
-              <a href="/archetypes">Archetypes</a>
-              <a href="/neurochem">Neurochem</a>
-              <a href="/brainwaves">Brainwaves</a>
-              <a href="/journal">Journal</a>
-              <a href="/timemachine">Time machine</a>
-            </div>
-          </nav>
-        </header>
-        <main id="main" className="mx-auto max-w-6xl px-4 py-8">
-          {children}
-        </main>
-        <footer className="border-t border-white/10 py-6 text-center text-xs text-slate-400">
-          Noctiscope · deterministic local simulation · no API keys needed · MIT
-        </footer>
+        <Providers>
+          <a href="#main" className="sr-only focus:not-sr-only">
+            Skip to content
+          </a>
+          <header className="border-b border-white/10">
+            <nav
+              aria-label="Primary"
+              className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3"
+            >
+              <a href="/" className="text-lg font-bold tracking-tight">
+                🌙 Noctiscope
+              </a>
+              <div className="flex flex-wrap gap-4 text-sm text-slate-300">
+                <a href="/atlas">Atlas</a>
+                <a href="/dreams">Dreams</a>
+                <a href="/biases">Biases</a>
+                <a href="/archetypes">Archetypes</a>
+                <a href="/neurochem">Neurochem</a>
+                <a href="/brainwaves">Brainwaves</a>
+                <a href="/journal">Journal</a>
+                <a href="/timemachine">Time machine</a>
+                <a href="/quiz">Quiz</a>
+                <a href="/search">Search</a>
+              </div>
+              <span className="ml-auto">
+                <ThemeToggle />
+              </span>
+            </nav>
+          </header>
+          <main id="main" className="mx-auto max-w-6xl px-4 py-8">
+            {children}
+          </main>
+          <footer className="border-t border-white/10 py-6 text-center text-xs text-slate-400">
+            Noctiscope · deterministic local simulation · no API keys needed ·
+            MIT
+          </footer>
+        </Providers>
       </body>
     </html>
   );

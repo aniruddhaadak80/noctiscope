@@ -11,3 +11,6 @@ export * from "./emotions";
 export * from "./journal";
 export * from "./brainwaves";
 export * from "./timeline";
+export * from "./personality";
+export * from "./chronotype";
+export * from "./stress";
