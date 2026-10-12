@@ -18,3 +18,5 @@ target/
 Thumbs.db
 playwright-report/
 test-results/
+
+.vercel

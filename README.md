@@ -15,6 +15,8 @@ license: MIT
     <img alt="seed" src="https://img.shields.io/badge/seed-7331-violet">
   </p>
   <b>Zero API keys needed — every "AI" is a deterministic local simulation.</b>
+  <br>
+  <a href="https://noctiscope.vercel.app"><b>Try the live demo →</b></a>
 </div>
 
 ---
