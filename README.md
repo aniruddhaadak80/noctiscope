@@ -46,6 +46,9 @@ your data. Noctiscope is open, offline-capable, and honest about being a teachin
 | Replay a mental day | `/timemachine` | event-sourced state replay |
 | Take a mind quiz | `/quiz` | big-five, chronotype, stress index (saved locally) |
 | Search everything | `/search` | regions, symbols, biases, archetypes in one query |
+| Watch the night swarm | `/swarm` | 1,000 deterministic agents live on canvas |
+| Build a habit loop | `/habits` | cue-craving-routine-reward graded instantly |
+| Learn your bonding style | `/attach` | 8-question attachment lens |
 
 ## Quickstart
 

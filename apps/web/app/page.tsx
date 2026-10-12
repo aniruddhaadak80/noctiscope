@@ -72,6 +72,21 @@ const CARDS = [
     title: "Deep Search",
     body: "One query across regions, symbols, biases and archetypes.",
   },
+  {
+    href: "/swarm",
+    title: "Night Swarm",
+    body: "1,000 subconscious agents drifting live on canvas.",
+  },
+  {
+    href: "/habits",
+    title: "Habit Loop Builder",
+    body: "Cue, craving, routine, reward — graded instantly.",
+  },
+  {
+    href: "/attach",
+    title: "Attachment Styles",
+    body: "How you bond, in 8 questions.",
+  },
 ];
 
 export default function HomePage() {

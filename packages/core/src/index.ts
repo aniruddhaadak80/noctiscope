@@ -14,3 +14,6 @@ export * from "./timeline";
 export * from "./personality";
 export * from "./chronotype";
 export * from "./stress";
+export * from "./swarm";
+export * from "./attachment";
+export * from "./habits";

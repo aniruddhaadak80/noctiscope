@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { CommandPalette } from "../components/command-palette";
 import { Providers } from "../components/theme-provider";
 import { ThemeToggle } from "../components/theme-toggle";
 import "./globals.css";
@@ -49,6 +50,7 @@ export default function RootLayout({
                 <a href="/timemachine">Time machine</a>
                 <a href="/quiz">Quiz</a>
                 <a href="/search">Search</a>
+                <a href="/swarm">Swarm</a>
               </div>
               <span className="ml-auto">
                 <ThemeToggle />
@@ -56,6 +58,7 @@ export default function RootLayout({
             </nav>
           </header>
           <main id="main" className="mx-auto max-w-6xl px-4 py-8">
+            <CommandPalette />
             {children}
           </main>
           <footer className="border-t border-white/10 py-6 text-center text-xs text-slate-400">
