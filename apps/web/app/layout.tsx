@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata, Viewport } from "next";
 import { CommandPalette } from "../components/command-palette";
 import { Providers } from "../components/theme-provider";
@@ -51,6 +52,8 @@ export default function RootLayout({
                 <a href="/quiz">Quiz</a>
                 <a href="/search">Search</a>
                 <a href="/swarm">Swarm</a>
+                <a href="/breathe">Breathe</a>
+                <a href="/focus">Focus</a>
               </div>
               <span className="ml-auto">
                 <ThemeToggle />
@@ -65,6 +68,7 @@ export default function RootLayout({
             Noctiscope · deterministic local simulation · no API keys needed ·
             MIT
           </footer>
+          <Analytics />
         </Providers>
       </body>
     </html>

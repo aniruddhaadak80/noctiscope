@@ -87,6 +87,21 @@ const CARDS = [
     title: "Attachment Styles",
     body: "How you bond, in 8 questions.",
   },
+  {
+    href: "/breathe",
+    title: "Breath Pacer",
+    body: "Box, 4-7-8, coherent and sigh protocols.",
+  },
+  {
+    href: "/focus",
+    title: "Focus Timer",
+    body: "One block, one intention, logged locally.",
+  },
+  {
+    href: "/gallery",
+    title: "Tale Gallery",
+    body: "144 archetype-symbol micro-tales.",
+  },
 ];
 
 export default function HomePage() {

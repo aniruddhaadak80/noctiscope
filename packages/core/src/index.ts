@@ -17,3 +17,5 @@ export * from "./stress";
 export * from "./swarm";
 export * from "./attachment";
 export * from "./habits";
+export * from "./breathing";
+export * from "./focus";

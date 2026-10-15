@@ -51,6 +51,9 @@ your data. Noctiscope is open, offline-capable, and honest about being a teachin
 | Watch the night swarm | `/swarm` | 1,000 deterministic agents live on canvas |
 | Build a habit loop | `/habits` | cue-craving-routine-reward graded instantly |
 | Learn your bonding style | `/attach` | 8-question attachment lens |
+| Pace your breath | `/breathe` | box, 4-7-8, coherent, sigh with animated orb |
+| Time a focus block | `/focus` | Pomodoro-style timer, sessions logged locally |
+| Wander the tales | `/gallery` | 144 generated archetype-symbol micro-tales |
 
 ## Quickstart
 
