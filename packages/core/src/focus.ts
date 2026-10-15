@@ -12,7 +12,10 @@ export function summarizeSessions(lengths: number[]): FocusSummary {
   return {
     count: valid.length,
     totalMinutes,
-    averageMinutes: valid.length === 0 ? 0 : Math.round((totalMinutes / valid.length) * 10) / 10,
+    averageMinutes:
+      valid.length === 0
+        ? 0
+        : Math.round((totalMinutes / valid.length) * 10) / 10,
     streak: valid.length,
   };
 }

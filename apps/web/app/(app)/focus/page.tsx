@@ -1,11 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { FOCUS_PRESETS, summarizeSessions } from "@repo/core";
+import { useEffect, useState } from "react";
 
 function load(): number[] {
   try {
-    return JSON.parse(localStorage.getItem("noctiscope-focus") ?? "[]") as number[];
+    return JSON.parse(
+      localStorage.getItem("noctiscope-focus") ?? "[]",
+    ) as number[];
   } catch {
     return [];
   }
@@ -44,7 +46,9 @@ export default function FocusPage() {
   return (
     <div>
       <h1 className="text-3xl font-black">Focus Timer</h1>
-      <p className="mt-2 text-slate-300">One block, one intention. Completed blocks are logged locally.</p>
+      <p className="mt-2 text-slate-300">
+        One block, one intention. Completed blocks are logged locally.
+      </p>
       <div className="mt-4 flex gap-2">
         {FOCUS_PRESETS.map((p) => (
           <button
@@ -88,7 +92,8 @@ export default function FocusPage() {
       <div className="mt-4 rounded-2xl border border-white/10 bg-white/5 p-5 text-sm">
         <p>
           <strong>
-            {summary.count} blocks · {summary.totalMinutes} min total · {summary.averageMinutes} min avg
+            {summary.count} blocks · {summary.totalMinutes} min total ·{" "}
+            {summary.averageMinutes} min avg
           </strong>
         </p>
       </div>

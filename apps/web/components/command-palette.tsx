@@ -24,6 +24,7 @@ const ROUTES = [
   ["Breath pacer", "/breathe"],
   ["Focus timer", "/focus"],
   ["Tale gallery", "/gallery"],
+  ["Mood log", "/mood"],
 ] as const;
 
 /** Zero-dependency command palette (Ctrl/⌘+K). */

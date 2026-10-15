@@ -54,6 +54,7 @@ your data. Noctiscope is open, offline-capable, and honest about being a teachin
 | Pace your breath | `/breathe` | box, 4-7-8, coherent, sigh with animated orb |
 | Time a focus block | `/focus` | Pomodoro-style timer, sessions logged locally |
 | Wander the tales | `/gallery` | 144 generated archetype-symbol micro-tales |
+| Log a nightly mood | `/mood` | 30-day local heatmap, trend summary |
 
 ## Quickstart
 

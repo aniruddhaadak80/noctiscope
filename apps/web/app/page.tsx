@@ -102,6 +102,11 @@ const CARDS = [
     title: "Tale Gallery",
     body: "144 archetype-symbol micro-tales.",
   },
+  {
+    href: "/mood",
+    title: "Mood Log",
+    body: "30-day value heatmap, logged only on your device.",
+  },
 ];
 
 export default function HomePage() {
