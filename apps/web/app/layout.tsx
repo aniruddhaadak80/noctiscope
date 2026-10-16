@@ -1,6 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata, Viewport } from "next";
 import { CommandPalette } from "../components/command-palette";
+import { ServiceWorkerRegistration } from "../components/service-worker-registration";
 import { Providers } from "../components/theme-provider";
 import { ThemeToggle } from "../components/theme-toggle";
 import "./globals.css";
@@ -13,8 +14,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Noctiscope — Explore the Subconscious Mind",
     description:
-      "Dream decoder, bias lab, archetype explorer, brainwave observatory. Zero keys needed.",
-    images: ["/images/og.svg"],
+      "An interactive observatory for psychology, neuroscience and the subconscious: dreams, biases, archetypes, brainwaves, memory and emotion.",
+    url: "https://noctiscope.vercel.app",
+    siteName: "Noctiscope",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Noctiscope — Explore the Subconscious Mind",
   },
 };
 
@@ -27,38 +34,24 @@ export default function RootLayout({
 }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen antialiased">
+      <body className="min-h-screen bg-[#070810] text-slate-100 antialiased">
         <Providers>
-          <a href="#main" className="sr-only focus:not-sr-only">
-            Skip to content
-          </a>
-          <header className="border-b border-white/10">
-            <nav
-              aria-label="Primary"
-              className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3"
-            >
-              <a href="/" className="text-lg font-bold tracking-tight">
-                🌙 Noctiscope
+          <header className="sticky top-0 z-40 border-b border-white/10 bg-[#070810]/80 backdrop-blur">
+            <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+              <a href="/" className="font-black tracking-tight">
+                NOCTISCOPE
               </a>
-              <div className="flex flex-wrap gap-4 text-sm text-slate-300">
+              <div className="hidden items-center gap-4 text-xs md:flex">
                 <a href="/atlas">Atlas</a>
-                <a href="/dreams">Dreams</a>
-                <a href="/biases">Biases</a>
-                <a href="/archetypes">Archetypes</a>
-                <a href="/neurochem">Neurochem</a>
-                <a href="/brainwaves">Brainwaves</a>
-                <a href="/journal">Journal</a>
-                <a href="/timemachine">Time machine</a>
                 <a href="/quiz">Quiz</a>
                 <a href="/search">Search</a>
                 <a href="/swarm">Swarm</a>
                 <a href="/breathe">Breathe</a>
                 <a href="/focus">Focus</a>
                 <a href="/mood">Mood</a>
+                <a href="/insights">Insights</a>
               </div>
-              <span className="ml-auto">
-                <ThemeToggle />
-              </span>
+              <ThemeToggle />
             </nav>
           </header>
           <main id="main" className="mx-auto max-w-6xl px-4 py-8">
@@ -70,6 +63,7 @@ export default function RootLayout({
             MIT
           </footer>
           <Analytics />
+          <ServiceWorkerRegistration />
         </Providers>
       </body>
     </html>

@@ -55,6 +55,9 @@ your data. Noctiscope is open, offline-capable, and honest about being a teachin
 | Time a focus block | `/focus` | Pomodoro-style timer, sessions logged locally |
 | Wander the tales | `/gallery` | 144 generated archetype-symbol micro-tales |
 | Log a nightly mood | `/mood` | 30-day local heatmap, trend summary |
+| Cross-feature synthesis | `/insights` | Radar over mood, habits, focus and recovery |
+<|end|> Symbol geometry | `/symbols/network` | Network constellation over 24 core symbols |
+| Portable records | `/vault` | Export, import or clear local records |
 
 ## Quickstart
 

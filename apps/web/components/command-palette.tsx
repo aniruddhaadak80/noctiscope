@@ -24,6 +24,9 @@ const ROUTES = [
   ["Breath pacer", "/breathe"],
   ["Focus timer", "/focus"],
   ["Tale gallery", "/gallery"],
+  ["Insight observatory", "/insights"],
+  ["Symbol constellation", "/symbols/network"],
+  ["Data vault", "/vault"],
   ["Mood log", "/mood"],
 ] as const;
 

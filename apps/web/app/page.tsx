@@ -107,6 +107,21 @@ const CARDS = [
     title: "Mood Log",
     body: "30-day value heatmap, logged only on your device.",
   },
+  {
+    href: "/insights",
+    title: "Insight Observatory",
+    body: "Radar synthesis across mood, habits, focus and recovery.",
+  },
+  {
+    href: "/symbols/network",
+    title: "Symbol Constellation",
+    body: "Relational geometry for 24 core dream symbols.",
+  },
+  {
+    href: "/vault",
+    title: "Data Vault",
+    body: "Export, import or clear local records.",
+  },
 ];
 
 export default function HomePage() {
