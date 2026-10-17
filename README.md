@@ -58,6 +58,7 @@ your data. Noctiscope is open, offline-capable, and honest about being a teachin
 | Cross-feature synthesis | `/insights` | Radar over mood, habits, focus and recovery |
 <|end|> Symbol geometry | `/symbols/network` | Network constellation over 24 core symbols |
 | Portable records | `/vault` | Export, import or clear local records |
+| Compose a nightscape | `/compose` | Deterministic generative SVG from a seed |
 
 ## Quickstart
 

@@ -108,6 +108,11 @@ const CARDS = [
     body: "30-day value heatmap, logged only on your device.",
   },
   {
+    href: "/compose",
+    title: "Dream Composer",
+    body: "Deterministic generative nightscapes from a seed.",
+  },
+  {
     href: "/insights",
     title: "Insight Observatory",
     body: "Radar synthesis across mood, habits, focus and recovery.",

@@ -48,6 +48,7 @@ export default function RootLayout({
                 <a href="/swarm">Swarm</a>
                 <a href="/breathe">Breathe</a>
                 <a href="/focus">Focus</a>
+                <a href="/compose">Compose</a>
                 <a href="/mood">Mood</a>
                 <a href="/insights">Insights</a>
               </div>

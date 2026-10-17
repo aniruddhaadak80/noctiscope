@@ -25,6 +25,7 @@ const ROUTES = [
   ["Focus timer", "/focus"],
   ["Tale gallery", "/gallery"],
   ["Insight observatory", "/insights"],
+  ["Dream composer", "/compose"],
   ["Symbol constellation", "/symbols/network"],
   ["Data vault", "/vault"],
   ["Mood log", "/mood"],
