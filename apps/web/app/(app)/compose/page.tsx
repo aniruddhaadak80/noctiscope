@@ -71,8 +71,8 @@ export default function ComposePage() {
             </linearGradient>
           </defs>
           <rect width="1000" height="560" fill="url(#sky)" />
-          {d.clusters.map((c, i) => (
-            <g key={`c-${i}`} opacity={c.opacity}>
+          {d.clusters.map((c) => (
+            <g key={`${c.x}-${c.y}-${c.rx}-${c.rotate}`} opacity={c.opacity}>
               <ellipse
                 cx={c.x}
                 cy={c.y}
@@ -83,9 +83,9 @@ export default function ComposePage() {
               />
             </g>
           ))}
-          {d.stars.map((s: DreamStar, i) => (
+          {d.stars.map((s: DreamStar) => (
             <circle
-              key={`s-${i}`}
+              key={`${s.x}-${s.y}-${s.r}`}
               cx={s.x}
               cy={s.y}
               r={s.r}
