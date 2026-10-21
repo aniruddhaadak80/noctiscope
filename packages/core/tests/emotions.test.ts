@@ -51,11 +51,20 @@ describe("labelEmotion", () => {
   it("matches a key that appears inside a longer word", () => {
     // The match is a substring test, not a word test: "anxi" is here to catch
     // "anxious" as well as "anxiety".
-    expect(labelEmotion("feeling anxious about it all").primary).toBe("Anxiety");
+    expect(labelEmotion("feeling anxious about it all").primary).toBe(
+      "Anxiety",
+    );
   });
 
   it("never returns an empty reading", () => {
-    for (const text of ["", "tight", "sad", "angry", "shame", "nothing familiar"]) {
+    for (const text of [
+      "",
+      "tight",
+      "sad",
+      "angry",
+      "shame",
+      "nothing familiar",
+    ]) {
       const reading = labelEmotion(text);
       expect(reading.primary.length, text).toBeGreaterThan(0);
       expect(reading.reframe.length, text).toBeGreaterThan(0);
