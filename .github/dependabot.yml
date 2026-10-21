@@ -6,7 +6,9 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 10
 
-  - package-ecosystem: "npm"
+  # Bun manages this repo (bun.lock, no package-lock.json). The "npm"
+  # ecosystem cannot update bun.lock and fails with `misconfigured_tooling`.
+  - package-ecosystem: "bun"
     directory: "/"
     schedule:
       interval: "weekly"
