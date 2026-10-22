@@ -1,9 +1,9 @@
 "use client";
 
 import {
-  PERSONALITY_QUIZ,
   computeStressIndex,
   dominantTrait,
+  PERSONALITY_QUIZ,
   scoreChronotype,
   scorePersonality,
   traitReading,

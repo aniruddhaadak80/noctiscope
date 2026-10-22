@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { scoreChronotype } from "../src/chronotype";
 import {
-  PERSONALITY_QUIZ,
   dominantTrait,
+  PERSONALITY_QUIZ,
   scorePersonality,
   traitReading,
 } from "../src/personality";

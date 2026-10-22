@@ -68,7 +68,6 @@ export function CommandPalette() {
 
   if (!open) return null;
   return (
-    // biome-ignore lint/a11y/useSemanticElements: overlay container
     <div
       role="dialog"
       aria-label="Navigate the observatory"
@@ -78,8 +77,10 @@ export function CommandPalette() {
         if (e.key === "Escape" || e.key === "Enter") setOpen(false);
       }}
     >
+      {/* biome-ignore lint/a11y/noStaticElementInteractions: nested panel only stops event bubbling */}
       <div
         className="mx-auto mt-24 max-w-md rounded-2xl border border-white/15 bg-[#141828] p-3"
+        role="presentation"
         onClick={(e) => e.stopPropagation()}
         onKeyDown={(e) => e.stopPropagation()}
       >

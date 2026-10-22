@@ -1,9 +1,9 @@
 "use client";
 
-import { type DreamStar, composeDreamscape } from "@repo/core";
+import { composeDreamscape, type DreamStar } from "@repo/core";
 import { useEffect, useRef, useState } from "react";
 
-function frame(d: ReturnType<typeof composeDreamscape>, tick: number) {
+function _frame(d: ReturnType<typeof composeDreamscape>, tick: number) {
   return composeDreamscape(d.seed, Math.floor(tick / 10) % 64);
 }
 

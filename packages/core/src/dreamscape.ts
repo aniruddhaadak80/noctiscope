@@ -57,7 +57,7 @@ export function composeDreamscape(seed = 7331, step = 0): Dreamscape {
 
   const clusters: DreamCluster[] = Array.from<unknown, DreamCluster>(
     { length: 5 },
-    (unused, i) => ({
+    (_unused, i) => ({
       x: Math.round(rand() * 900) + 40,
       y: 140 + Math.round(rand() * 320),
       rx: Math.round(70 + rand() * 110),
