@@ -3,7 +3,10 @@ import type { ReactNode } from "react";
 export function Card({
   title,
   children,
-}: { title: string; children: ReactNode }) {
+}: {
+  title: string;
+  children: ReactNode;
+}) {
   return (
     <article className="rounded-2xl border border-white/10 bg-white/5 p-5">
       <h2 className="font-bold">{title}</h2>
@@ -22,7 +25,6 @@ export function Meter({ label, value }: { label: string; value: number }) {
       <div
         className="h-2 rounded-full bg-white/10"
         role="progressbar"
-        tabIndex={0}
         aria-valuenow={value}
         aria-valuemin={0}
         aria-valuemax={100}
