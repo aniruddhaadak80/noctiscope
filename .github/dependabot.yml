@@ -13,3 +13,8 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
+    ignore:
+      # TypeScript 7 removes baseUrl and rejects the repo's path aliases, so
+      # the toolchain needs a deliberate tsconfig migration first.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
