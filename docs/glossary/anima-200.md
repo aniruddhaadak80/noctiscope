@@ -4,7 +4,7 @@
 
 ## What it means
 
-Anima shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **quilt** (patched-together comfort), an affect tone of *anxious*, and a nightly rehearsal in REM.
+Anima shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **quilt** (patched-together comfort), an affect tone of _anxious_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Anima shapes how the line between awareness and the deep mind moves. In Noctisco
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 201.*
+_Seed 7331 · generated dossier 201._

@@ -4,7 +4,7 @@
 
 ## What it means
 
-Sleep spindle shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **telescope** (distant goals), an affect tone of *liminal*, and a nightly rehearsal in REM.
+Sleep spindle shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **telescope** (distant goals), an affect tone of _liminal_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Sleep spindle shapes how the line between awareness and the deep mind moves. In 
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 48.*
+_Seed 7331 · generated dossier 48._

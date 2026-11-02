@@ -4,7 +4,7 @@
 
 ## What it means
 
-Subconscious shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **hurricane** (chaotic transformation), an affect tone of *turbulent*, and a nightly rehearsal in REM.
+Subconscious shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **hurricane** (chaotic transformation), an affect tone of _turbulent_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Subconscious shapes how the line between awareness and the deep mind moves. In N
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 190.*
+_Seed 7331 · generated dossier 190._
