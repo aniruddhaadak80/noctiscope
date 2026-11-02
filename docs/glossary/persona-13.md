@@ -4,7 +4,7 @@
 
 ## What it means
 
-Persona shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **crystal** (clarity forming), an affect tone of *turbulent*, and a nightly rehearsal in REM.
+Persona shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **crystal** (clarity forming), an affect tone of _turbulent_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Persona shapes how the line between awareness and the deep mind moves. In Noctis
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 14.*
+_Seed 7331 · generated dossier 14._

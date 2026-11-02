@@ -4,7 +4,7 @@
 
 ## What it means
 
-Transference shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **drum** (heartbeat of an approaching event), an affect tone of *hopeful*, and a nightly rehearsal in REM.
+Transference shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **drum** (heartbeat of an approaching event), an affect tone of _hopeful_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Transference shapes how the line between awareness and the deep mind moves. In N
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 18.*
+_Seed 7331 · generated dossier 18._

@@ -4,7 +4,7 @@
 
 ## What it means
 
-Default mode network shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **cave** (retreat into the inner self), an affect tone of *hopeful*, and a nightly rehearsal in REM.
+Default mode network shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **cave** (retreat into the inner self), an affect tone of _hopeful_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Default mode network shapes how the line between awareness and the deep mind mov
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 10.*
+_Seed 7331 · generated dossier 10._

@@ -4,7 +4,7 @@
 
 ## What it means
 
-Collective unconscious shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **desert** (emotional barrenness), an affect tone of *reflective*, and a nightly rehearsal in REM.
+Collective unconscious shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **desert** (emotional barrenness), an affect tone of _reflective_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Collective unconscious shapes how the line between awareness and the deep mind m
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 69.*
+_Seed 7331 · generated dossier 69._
