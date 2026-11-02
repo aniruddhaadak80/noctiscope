@@ -4,7 +4,7 @@
 
 ## What it means
 
-Animus shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **compass** (search for direction), an affect tone of *reflective*, and a nightly rehearsal in REM.
+Animus shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **compass** (search for direction), an affect tone of _reflective_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Animus shapes how the line between awareness and the deep mind moves. In Noctisc
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 13.*
+_Seed 7331 · generated dossier 13._

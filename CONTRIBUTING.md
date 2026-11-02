@@ -1,6 +1,7 @@
 # Contributing to Noctiscope
 
 ## Quickstart
+
 ```powershell
 git clone https://github.com/aniruddhaadak80/noctiscope
 cd noctiscope
@@ -10,6 +11,7 @@ bun run dev
 ```
 
 ## Rules
+
 - Conventional Commits (`feat:`, `fix:`, `docs:`, `test:`, `chore:`)
 - One logical change per commit
 - `packages/core` stays React-free and fully tested

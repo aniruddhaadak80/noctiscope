@@ -4,7 +4,7 @@
 
 ## What it means
 
-Cognitive dissonance shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **fog** (confusion obscuring a decision), an affect tone of *liminal*, and a nightly rehearsal in REM.
+Cognitive dissonance shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **fog** (confusion obscuring a decision), an affect tone of _liminal_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Cognitive dissonance shapes how the line between awareness and the deep mind mov
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 24.*
+_Seed 7331 · generated dossier 24._

@@ -4,7 +4,7 @@
 
 ## What it means
 
-Neuroplasticity shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **eclipse** (something overshadowing you), an affect tone of *melancholic*, and a nightly rehearsal in REM.
+Neuroplasticity shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **eclipse** (something overshadowing you), an affect tone of _melancholic_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Neuroplasticity shapes how the line between awareness and the deep mind moves. I
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 19.*
+_Seed 7331 · generated dossier 19._

@@ -4,7 +4,7 @@
 
 ## What it means
 
-Priming shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **glacier** (slow-moving emotional truth), an affect tone of *melancholic*, and a nightly rehearsal in REM.
+Priming shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **glacier** (slow-moving emotional truth), an affect tone of _melancholic_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Priming shapes how the line between awareness and the deep mind moves. In Noctis
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 187.*
+_Seed 7331 · generated dossier 187._

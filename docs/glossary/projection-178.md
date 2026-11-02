@@ -4,7 +4,7 @@
 
 ## What it means
 
-Projection shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **elevator** (rises and falls of status), an affect tone of *melancholic*, and a nightly rehearsal in REM.
+Projection shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **elevator** (rises and falls of status), an affect tone of _melancholic_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Projection shapes how the line between awareness and the deep mind moves. In Noc
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 179.*
+_Seed 7331 · generated dossier 179._
