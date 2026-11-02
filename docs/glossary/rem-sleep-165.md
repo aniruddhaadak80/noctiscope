@@ -4,7 +4,7 @@
 
 ## What it means
 
-REM sleep shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **cage** (self-imposed limitation), an affect tone of *turbulent*, and a nightly rehearsal in REM.
+REM sleep shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **cage** (self-imposed limitation), an affect tone of _turbulent_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ REM sleep shapes how the line between awareness and the deep mind moves. In Noct
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 166.*
+_Seed 7331 · generated dossier 166._

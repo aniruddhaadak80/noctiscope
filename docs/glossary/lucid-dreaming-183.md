@@ -4,7 +4,7 @@
 
 ## What it means
 
-Lucid dreaming shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **fountain** (renewed emotional flow), an affect tone of *liminal*, and a nightly rehearsal in REM.
+Lucid dreaming shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **fountain** (renewed emotional flow), an affect tone of _liminal_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Lucid dreaming shapes how the line between awareness and the deep mind moves. In
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 184.*
+_Seed 7331 · generated dossier 184._

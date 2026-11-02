@@ -4,7 +4,7 @@
 
 ## What it means
 
-Sublimation shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **rollercoaster** (emotional volatility), an affect tone of *tender*, and a nightly rehearsal in REM.
+Sublimation shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **rollercoaster** (emotional volatility), an affect tone of _tender_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Sublimation shapes how the line between awareness and the deep mind moves. In No
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 151.*
+_Seed 7331 · generated dossier 151._
