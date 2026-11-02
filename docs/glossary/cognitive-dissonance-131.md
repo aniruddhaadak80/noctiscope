@@ -4,7 +4,7 @@
 
 ## What it means
 
-Cognitive dissonance shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **garden** (cultivated inner life), an affect tone of *euphoric*, and a nightly rehearsal in REM.
+Cognitive dissonance shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **garden** (cultivated inner life), an affect tone of _euphoric_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Cognitive dissonance shapes how the line between awareness and the deep mind mov
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 132.*
+_Seed 7331 · generated dossier 132._

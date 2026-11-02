@@ -4,7 +4,7 @@
 
 ## What it means
 
-Affect labeling shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **clock** (anxiety about time passing), an affect tone of *hopeful*, and a nightly rehearsal in REM.
+Affect labeling shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **clock** (anxiety about time passing), an affect tone of _hopeful_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Affect labeling shapes how the line between awareness and the deep mind moves. I
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 170.*
+_Seed 7331 · generated dossier 170._

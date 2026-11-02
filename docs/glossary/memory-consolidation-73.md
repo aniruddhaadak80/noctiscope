@@ -4,7 +4,7 @@
 
 ## What it means
 
-Memory consolidation shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **engine** (your drive system), an affect tone of *hopeful*, and a nightly rehearsal in REM.
+Memory consolidation shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **engine** (your drive system), an affect tone of _hopeful_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Memory consolidation shapes how the line between awareness and the deep mind mov
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 74.*
+_Seed 7331 · generated dossier 74._

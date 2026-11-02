@@ -4,7 +4,7 @@
 
 ## What it means
 
-NREM sleep shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **ice** (frozen feeling), an affect tone of *liminal*, and a nightly rehearsal in REM.
+NREM sleep shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **ice** (frozen feeling), an affect tone of _liminal_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ NREM sleep shapes how the line between awareness and the deep mind moves. In Noc
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 32.*
+_Seed 7331 · generated dossier 32._

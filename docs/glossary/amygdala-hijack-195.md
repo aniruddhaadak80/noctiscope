@@ -4,7 +4,7 @@
 
 ## What it means
 
-Amygdala hijack shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **mask** (persona vs true self), an affect tone of *euphoric*, and a nightly rehearsal in REM.
+Amygdala hijack shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **mask** (persona vs true self), an affect tone of _euphoric_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Amygdala hijack shapes how the line between awareness and the deep mind moves. I
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 196.*
+_Seed 7331 · generated dossier 196._

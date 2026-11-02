@@ -4,7 +4,7 @@
 
 ## What it means
 
-Flow state shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **abyss** (confrontation with the unknown), an affect tone of *melancholic*, and a nightly rehearsal in REM.
+Flow state shapes how the line between awareness and the deep mind moves. In Noctiscope it is explored through the symbol **abyss** (confrontation with the unknown), an affect tone of _melancholic_, and a nightly rehearsal in REM.
 
 ## Try it
 
@@ -15,4 +15,4 @@ Flow state shapes how the line between awareness and the deep mind moves. In Noc
 
 - Dreams (`/dreams`) · Biases (`/biases`) · Journal (`/journal`)
 
-*Seed 7331 · generated dossier 107.*
+_Seed 7331 · generated dossier 107._

@@ -1,4 +1,5 @@
 ---
+
 name: noctiscope
 description: Explore the subconscious mind live in your browser. Use when you want to decode dreams, trigger biases, meet archetypes, simulate neurochemistry, or replay mental states.
 topics: nextjs, typescript, react, tailwindcss, monorepo, psychology, neuroscience, simulation, education, data-visualization, open-source
@@ -32,33 +33,33 @@ your data. Noctiscope is open, offline-capable, and honest about being a teachin
 
 ## What you can do with it
 
-| I want to… | Open | Get |
-|---|---|---|
-| See what each brain region whispers | `/atlas` | 12 regions + reflection prompts |
-| Decode last night's dream | `/dreams` | symbols, valence/arousal, lucid prompt |
-| Catch my own biases | `/biases` | 18 experiments + debias rituals |
-| Meet my inner cast | `/archetypes` | 12 Jungian archetypes + shadows |
-| Poke my neurochemistry | `/neurochem` | dopamine/serotonin/cortisol/oxytocin sim |
-| Spot my defenses | `/defenses` | 8 Freudian defenses + healthier moves |
-| Map my sleep | `/sleep` | 90-min cycles + trance states |
-| Memorize anything | `/memory` | method-of-loci palace builder |
-| Name a feeling to tame it | `/emotions` | affect labeling + breathing protocol |
-| Journal with a mirror | `/journal` | deterministic reflection, zero keys |
-| Watch brainwaves | `/brainwaves` | delta→gamma live sim |
-| Replay a mental day | `/timemachine` | event-sourced state replay |
-| Take a mind quiz | `/quiz` | big-five, chronotype, stress index (saved locally) |
-| Search everything | `/search` | regions, symbols, biases, archetypes in one query |
-| Watch the night swarm | `/swarm` | 1,000 deterministic agents live on canvas |
-| Build a habit loop | `/habits` | cue-craving-routine-reward graded instantly |
-| Learn your bonding style | `/attach` | 8-question attachment lens |
-| Pace your breath | `/breathe` | box, 4-7-8, coherent, sigh with animated orb |
-| Time a focus block | `/focus` | Pomodoro-style timer, sessions logged locally |
-| Wander the tales | `/gallery` | 144 generated archetype-symbol micro-tales |
-| Log a nightly mood | `/mood` | 30-day local heatmap, trend summary |
-| Cross-feature synthesis | `/insights` | Radar over mood, habits, focus and recovery |
-<|end|> Symbol geometry | `/symbols/network` | Network constellation over 24 core symbols |
-| Portable records | `/vault` | Export, import or clear local records |
-| Compose a nightscape | `/compose` | Deterministic generative SVG from a seed |
+| I want to…                          | Open           | Get                                                |
+| ----------------------------------- | -------------- | -------------------------------------------------- |
+| See what each brain region whispers | `/atlas`       | 12 regions + reflection prompts                    |
+| Decode last night's dream           | `/dreams`      | symbols, valence/arousal, lucid prompt             |
+| Catch my own biases                 | `/biases`      | 18 experiments + debias rituals                    |
+| Meet my inner cast                  | `/archetypes`  | 12 Jungian archetypes + shadows                    |
+| Poke my neurochemistry              | `/neurochem`   | dopamine/serotonin/cortisol/oxytocin sim           |
+| Spot my defenses                    | `/defenses`    | 8 Freudian defenses + healthier moves              |
+| Map my sleep                        | `/sleep`       | 90-min cycles + trance states                      |
+| Memorize anything                   | `/memory`      | method-of-loci palace builder                      |
+| Name a feeling to tame it           | `/emotions`    | affect labeling + breathing protocol               |
+| Journal with a mirror               | `/journal`     | deterministic reflection, zero keys                |
+| Watch brainwaves                    | `/brainwaves`  | delta→gamma live sim                               |
+| Replay a mental day                 | `/timemachine` | event-sourced state replay                         |
+| Take a mind quiz                    | `/quiz`        | big-five, chronotype, stress index (saved locally) |
+| Search everything                   | `/search`      | regions, symbols, biases, archetypes in one query  |
+| Watch the night swarm               | `/swarm`       | 1,000 deterministic agents live on canvas          |
+| Build a habit loop                  | `/habits`      | cue-craving-routine-reward graded instantly        |
+| Learn your bonding style            | `/attach`      | 8-question attachment lens                         |
+| Pace your breath                    | `/breathe`     | box, 4-7-8, coherent, sigh with animated orb       |
+| Time a focus block                  | `/focus`       | Pomodoro-style timer, sessions logged locally      |
+| Wander the tales                    | `/gallery`     | 144 generated archetype-symbol micro-tales         |
+| Log a nightly mood                  | `/mood`        | 30-day local heatmap, trend summary                |
+| Cross-feature synthesis             | `/insights`    | Radar over mood, habits, focus and recovery        |
+| <                                   | end            | > Symbol geometry                                  | `/symbols/network` | Network constellation over 24 core symbols |
+| Portable records                    | `/vault`       | Export, import or clear local records              |
+| Compose a nightscape                | `/compose`     | Deterministic generative SVG from a seed           |
 
 ## Quickstart
 
@@ -133,13 +134,13 @@ route is statically prerendered.
 
 ## Documentation map
 
-| Doc | Path |
-|---|---|
-| Diagrams | `docs/diagrams/*.mmd` |
-| ADRs | `docs/adr/` |
-| Deploying | `docs/guides/deploying.md` |
-| LLM upgrade | `docs/guides/llm-upgrade.md` |
-| API | `docs/api/reference.md` |
+| Doc         | Path                           |
+| ----------- | ------------------------------ |
+| Diagrams    | `docs/diagrams/*.mmd`          |
+| ADRs        | `docs/adr/`                    |
+| Deploying   | `docs/guides/deploying.md`     |
+| LLM upgrade | `docs/guides/llm-upgrade.md`   |
+| API         | `docs/api/reference.md`        |
 | Green gates | `docs/runbooks/green-gates.md` |
 
 ## Contributing
