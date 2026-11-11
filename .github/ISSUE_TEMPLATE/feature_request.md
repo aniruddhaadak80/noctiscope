@@ -1,6 +1,7 @@
 name: Feature request
 description: A new wing for the observatory
 body:
+
 - type: textarea
   id: idea
   attributes:
