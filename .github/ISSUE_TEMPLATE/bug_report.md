@@ -1,6 +1,7 @@
 name: Bug report
 description: Something broken in the observatory
 body:
+
 - type: textarea
   id: what
   attributes:
